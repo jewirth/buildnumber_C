@@ -3,6 +3,7 @@
 
 int main(int argc, char **argv) {
 
+	// display buildnumber on startup
 	printf("Hello, World! I'm foo1 (BUILD #%d)\r\n", __MYVAR);
 
 	for (int i=0; i<5; i++) {
